@@ -1,1 +1,1 @@
-This is a simple weather app. This website was built with HTML, CSS, and JavaScript. I made this website to implementing API from OpenWeatherMap.
+This is a simple web application to display current weather information based on city. Created with HTML, CSS, and JavaScript. This project is created as a practice for working with APIs, specifically the OpenWeatherMap API.
