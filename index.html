@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Simple Weather</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="card">
+            <h1 class="title">Simple Weather App</h1>
+            <div class="search">
+                <input
+                    type="search"
+                    name=""
+                    id="search-input"
+                    placeholder="Masukkan Kota"
+                />
+                <button type="submit" class="search-btn">
+                    <img src="assets/search-icon.svg" alt="" />
+                </button>
+            </div>
+            <div class="error">
+                <p>Invalid city name.</p>
+            </div>
+            <div class="weather">
+                <div class="weather-top">
+                    <img class="weather-icon" src="" alt="" />
+                    <h1 class="temp"></h1>
+                    <h2 class="city"></h2>
+                </div>
+                <div class="details">
+                    <div class="details-top">
+                        <div class="details-sec">
+                            <img src="assets/humidity-icon.svg" alt="" />
+                            <p class="humidity"></p>
+                        </div>
+                        <p>Humidity</p>
+                    </div>
+                    <div class="details-top">
+                        <div class="details-sec">
+                            <img src="assets/wind-icon.svg" alt="" />
+                            <p class="wind"></p>
+                        </div>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
